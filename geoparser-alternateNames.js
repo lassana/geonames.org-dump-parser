@@ -1,13 +1,13 @@
 var filename = 'alternateNames.txt'
 var outputFilename = filename + '-' + new Date().toISOString() + '.xlsx'
 
-var Excel = require("exceljs")
+var Excel = require('exceljs')
 
 var options = { filename: outputFilename }
 var workbook = new Excel.stream.xlsx.WorkbookWriter(options)
 
-workbook.creator = "Me"
-workbook.lastModifiedBy = "Me"
+workbook.creator = 'Me'
+workbook.lastModifiedBy = 'Me'
 workbook.created = new Date()
 workbook.modified = new Date()
 
