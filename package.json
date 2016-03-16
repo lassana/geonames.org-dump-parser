@@ -1,0 +1,25 @@
+{
+  "name": "geonames.org-dump-parser",
+  "version": "1.0.0",
+  "description": "The parser of GeoNames archives.",
+  "main": "geoparser.js",
+  "scripts": {
+    "start": "node geoparser.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lassana/geonames.org-dump-parser.git"
+  },
+  "keywords": [
+    "geonames"
+  ],
+  "author": "Nikolai Doronin",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/lassana/geonames.org-dump-parser/issues"
+  },
+  "homepage": "https://github.com/lassana/geonames.org-dump-parser#readme",
+  "dependencies": {
+    "exceljs": "0.2.3"
+  }
+}
